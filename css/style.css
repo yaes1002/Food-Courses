@@ -1,0 +1,97 @@
+:root {
+  --col-1: #6b7b6e;
+  --col-2: #394d42;
+  --col-3: #b4fcc2;
+  --col-4: #80ab88;
+  --font-1: "Segoe UI", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  color: black;
+  font-family: var(--font-1);
+}
+
+header {
+  background: url("../img/nav_img.jpg") center/cover no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+#listMenu {
+  max-width: 560px;
+}
+#navDesc {
+  max-width: 674px;
+  max-height: 217px;
+}
+
+#logo {
+  color: var(--col-3);
+}
+
+#diner {
+  background: url("../img/pexels-kyle-roxas-2122280.jpg") center/cover no-repeat;
+}
+#breakfast {
+  background: url("../img/pexels-kaboompics-com-5938.jpg") center/cover
+    no-repeat;
+}
+
+#diner,
+#breakfast {
+  height: 374px;
+  opacity: 0.8;
+  text-shadow: 0 0 4px black;
+}
+
+#diner span,
+#breakfast span {
+  color: var(--col-4);
+}
+i {
+  position: absolute;
+  color: #ffffff;
+}
+
+.fa-facebook-f {
+  right: 7%;
+  bottom: 65px;
+}
+.fa-instagram {
+  right: 7%;
+  bottom: 110px;
+}
+.fa-twitter {
+  right: 7%;
+  bottom: 155px;
+}
+.fa-chevron-down {
+  bottom: 45px;
+  right: 50%;
+}
+h2 {
+  font-family: var(--font-1);
+  color: black;
+}
+#word_desc {
+  max-width: 450px;
+}
+.read_more {
+  color: var(--col-2);
+  cursor: pointer;
+}
+#chefs {
+  max-width: 406px;
+}
+#subscribe {
+  background-color: var(--col-1);
+  width: 189px;
+  height: 59px;
+  border: solid 2px var(--col-1);
+}
+input[type="text"] {
+  /* border: none; */
+  border: solid 2px var(--col-1);
+  width: 388px;
+  height: 59px;
+}
